@@ -1,0 +1,54 @@
+{
+  "IndexPage": {
+    "title": "Tablemate",
+    "description": "Đây là một ví dụ cơ bản để minh họa cách sử dụng <code>next-intl</code> với Next.js App Router. Hãy thử thay đổi ngôn ngữ ở góc phải trên cùng và xem cách nội dung thay đổi."
+  },
+  "LoginPage": {
+    "login": "Đăng Nhập",
+    "title": "Đăng nhập vào tài khoản Tablemate",
+    "password": "Mật khẩu",
+    "forgotYourPassword": "Quên mật khẩu?",
+    "phoneNumberIsRequired": "Số điện thoại là trường bắt buộc",
+    "brandCodeIsRequired": "Mã thương hiệu là trường bắt buộc",
+    "passwordIsRequired": "Mật khẩu là trường bắt buộc",
+    "continue": "Tiếp tục",
+    "confirm": "Xác nhận"
+  },
+  "AboutPage": {
+    "title": "Về chúng tôi",
+    "description": "<p>Quá trình định tuyến cũng được quốc tế hóa.</p><p>Nếu bạn đang sử dụng ngôn ngữ mặc định là Tiếng Anh, bạn sẽ thấy <code>/about</code> trong thanh địa chỉ trình duyệt trên trang này.</p><p>Nếu bạn thay đổi ngôn ngữ sang Tiếng Đức, URL sẽ có tiền tố là ngôn ngữ (<code>/de/about</code>).</p>"
+  },
+  "Error": {
+    "title": "Có điều gì đó đã xảy ra!",
+    "description": "<p>Chúng tôi tiếc nuối đã gặp lỗi.</p><p>Bạn có thể thử <retry>tải lại trang</retry> bạn đang truy cập.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Không tìm thấy trang",
+    "description": "Vui lòng kiểm tra lại thanh địa chỉ trình duyệt hoặc sử dụng điều hướng để điều hướng đến một trang đã biết."
+  },
+  "LocaleLayout": {
+    "title": "Tablemate"
+  },
+  "LocaleSwitcher": {
+    "label": "Thay đổi ngôn ngữ",
+    "locale": "{locale, select, vi {Tiếng Việt} en {Tiếng Anh} other {Không xác định}}"
+  },
+  "Navigation": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Tài liệu",
+        "description": "Tìm hiểu thêm về next-intl trong tài liệu chính thức.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Mã nguồn",
+        "description": "Duyệt mã nguồn của ví dụ này trên GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
+      }
+    }
+  }
+}

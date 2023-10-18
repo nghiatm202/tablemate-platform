@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .spacing-main {
+    @apply pl-10 py-4;
+  }
+}
+
+.error-message-custom {
+  .ant-message-notice-content {
+    background-color: #fdf4f4 !important;
+    color: #d14343;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

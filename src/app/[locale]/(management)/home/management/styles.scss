@@ -1,0 +1,22 @@
+.ant-tabs-ink-bar {
+  background-color: transparent !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  .management-tab-item {
+    background-color: #ed5700;
+    color: #fff;
+  }
+}
+
+.management-dashboard .ant-tabs-nav {
+  margin: 0 !important;
+
+  &::before {
+    border: none !important;
+  }
+}
+
+.ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 8px !important;
+}

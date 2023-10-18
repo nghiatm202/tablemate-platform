@@ -1,0 +1,11 @@
+.login-tabs {
+  .ant-tabs-nav {
+    &::before {
+      border-bottom: none !important;
+    }
+  }
+}
+
+.ant-input {
+  padding: 16px 12px 4px 11px !important;
+}
