@@ -42,7 +42,6 @@ export default function LoginForOwner() {
       >
         <FloatLabel
           label="Phone number"
-          name="phone"
           value={phoneNumber}
           onChange={(newValue: string) => setPhoneNumber(newValue)}
         ></FloatLabel>

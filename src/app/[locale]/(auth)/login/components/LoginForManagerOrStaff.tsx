@@ -23,7 +23,6 @@ export default function LoginForManagerOrStaff() {
       >
         <FloatLabel
           label="Brand Code"
-          name="brandCode"
           value={brandCode}
           onChange={(newValue: string) => setBrandCode(newValue)}
         ></FloatLabel>
@@ -35,7 +34,6 @@ export default function LoginForManagerOrStaff() {
       >
         <FloatLabel
           label="Phone number"
-          name="phone"
           value={phoneNumber}
           onChange={(newValue: string) => setPhoneNumber(newValue)}
         ></FloatLabel>
