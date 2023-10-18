@@ -1,6 +1,6 @@
 import { CButton, FloatLabel } from "@/components";
 import { useLogin } from "@/hooks";
-import { Form, Input } from "antd";
+import { Form } from "antd";
 import { useTranslations } from "next-intl";
 import { useCallback, useState } from "react";
 
