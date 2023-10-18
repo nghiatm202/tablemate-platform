@@ -35,6 +35,4 @@ module.exports = withBundleAnalyzer({
       },
     ],
   },
-  trailingSlash: true,
-  output: "export",
 });
