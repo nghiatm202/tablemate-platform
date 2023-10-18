@@ -3,7 +3,13 @@ import React, { memo, useState } from "react";
 import "./styles.scss";
 import { Input } from "antd";
 
-const FloatLabel = (props: any) => {
+type Props = {
+  label: string;
+  value: string;
+  onChange: (value: string) => void;
+};
+
+const FloatLabel = (props: Props) => {
   const [focus, setFocus] = useState(false);
   const { label, value } = props;
 
