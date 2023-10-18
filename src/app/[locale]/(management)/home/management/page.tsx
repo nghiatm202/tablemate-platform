@@ -10,6 +10,7 @@ const WrapperLayout = dynamic(() =>
 );
 
 import "./styles.scss";
+import { SettingTab } from "./components";
 
 export default function ManagementDashboardPage() {
   const items: TabsProps["items"] = [
@@ -20,7 +21,7 @@ export default function ManagementDashboardPage() {
           Setting
         </span>
       ),
-      children: <span>setting</span>,
+      children: <SettingTab />,
     },
     {
       key: EManagementTab.BRAND,
