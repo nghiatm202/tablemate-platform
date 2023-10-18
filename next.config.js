@@ -6,6 +6,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 module.exports = withBundleAnalyzer({
   // distDir: "build",
+  output: "export",
   swcMinify: true,
   reactStrictMode: true,
   compiler: {
