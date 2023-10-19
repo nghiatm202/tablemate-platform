@@ -13,7 +13,9 @@ interface IProps {
   white?: boolean;
   neutral700?: boolean;
   neutral300?: boolean;
+  xlSemi?: boolean;
   xxlSemi?: boolean;
+  lgSemi?: boolean;
   smNormal?: boolean;
   children?: ReactNode;
 }
@@ -31,6 +33,8 @@ export default function CTitle({
   neutral700,
   neutral300,
   xxlSemi,
+  xlSemi,
+  lgSemi,
   smNormal,
   children,
 }: IProps) {
@@ -39,6 +43,8 @@ export default function CTitle({
       className={classnames(
         {
           "!text-2xl !font-semibold": xxlSemi,
+          "!text-xl !font-semibold": xlSemi,
+          "!text-lg !font-semibold": lgSemi,
           "!text-sm !font-normal": smNormal,
           "!text-main": main,
           "!font-normal": regular,

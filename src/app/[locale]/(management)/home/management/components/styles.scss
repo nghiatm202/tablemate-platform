@@ -1,3 +1,45 @@
 .ant-form-item {
   margin: 0 !important;
 }
+
+.avatar-uploader {
+  width: 100%;
+  height: 100%;
+
+  .ant-upload.ant-upload-select {
+    width: 100% !important;
+    // height: 100% !important;
+    padding-top: 100% !important;
+    background-color: white !important;
+    border: 1px solid #f2f2f2 !important;
+    border-radius: 4px !important;
+    position: relative;
+  }
+
+  .avatar-uploader-hover {
+    display: none;
+    transition: 0.3s ease-out all !important;
+  }
+
+  &:hover {
+    .ant-upload.ant-upload-select {
+      width: 100% !important;
+      //   height: 100% !important;
+      padding-top: 100% !important;
+      background-color: #aeaeae !important;
+      border-color: #ed5700 !important;
+      border-radius: 4px !important;
+      transition: 0.3s ease-out all !important;
+    }
+
+    .avatar-uploader-hover {
+      display: flex;
+      transition: 0.3s ease-out all !important;
+    }
+  }
+}
+
+.logo-filter {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3228%)
+    hue-rotate(203deg) brightness(92%) contrast(79%);
+}

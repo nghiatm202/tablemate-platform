@@ -1,7 +1,7 @@
-import React, { memo, useState } from "react";
+import { Input } from "antd";
+import { memo, useState } from "react";
 
 import "./styles.scss";
-import { Input } from "antd";
 
 type Props = {
   label: string;

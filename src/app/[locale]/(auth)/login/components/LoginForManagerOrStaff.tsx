@@ -23,8 +23,8 @@ export default function LoginForManagerOrStaff() {
       >
         <FloatLabel
           label="Brand Code"
-          value={brandCode}
-          onChange={(newValue: string) => setBrandCode(newValue)}
+          value=""
+          onChange={() => {}}
         ></FloatLabel>
       </Form.Item>
 
@@ -34,8 +34,8 @@ export default function LoginForManagerOrStaff() {
       >
         <FloatLabel
           label="Phone number"
-          value={phoneNumber}
-          onChange={(newValue: string) => setPhoneNumber(newValue)}
+          value=""
+          onChange={() => {}}
         ></FloatLabel>
       </Form.Item>
 

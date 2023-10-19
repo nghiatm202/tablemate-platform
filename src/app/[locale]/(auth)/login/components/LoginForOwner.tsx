@@ -42,8 +42,8 @@ export default function LoginForOwner() {
       >
         <FloatLabel
           label="Phone number"
-          value={phoneNumber}
-          onChange={(newValue: string) => setPhoneNumber(newValue)}
+          value=""
+          onChange={() => {}}
         ></FloatLabel>
       </Form.Item>
 
